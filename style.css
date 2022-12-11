@@ -1,0 +1,319 @@
+/* topnav bar */
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.topnav{
+    background-color: rgb(50, 47, 47);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+    }
+    /* link style */
+.topnav a{ 
+float: left;
+color: #f2f2f2;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 2vw;
+}
+/* color of links on hover */
+.topnav a:hover {    
+    background-color: #ddd;
+    color: black;
+}
+/* color to active link */
+.topnav a.active{
+    background-color: #514948;
+    color: white;
+    margin-left: 1vw;
+}
+/* search button */
+#chrome-search{
+    font-size: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ddd;
+    top: 0;
+    left: 0;
+    border: 0;
+    height: 4vw;
+    border-radius: 2vw/50%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0.5vw;
+}
+/* logo */
+.logo1{
+    padding-right: 1vw;
+}
+.logo1 img{
+    width: 5.5vw;
+    height: 4vw;
+}
+/* BLOCK 2 - VIDEO */
+.video video{
+    width: 96.8vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1vw;
+}
+/* BLOCK 3 */
+.newar{
+    background-color: rgb(158, 136, 136);
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+    animation: golden 10s ease-in;
+}
+@keyframes golden {
+    from{
+        background-color: rgb(158, 136, 136);
+    }
+    to{
+        background-color: rgb(138, 105, 40);
+    }
+
+}
+.text{
+    text-align: left;
+    font-weight: 2000;
+    text-decoration: none;
+    float: left;
+    color: #000000;
+    padding: 3vw;
+}
+.text h1{
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+.text h6{
+    font-size: 2vw;
+    margin-top: 0;
+    color: #514948;
+}
+.text button{
+    font-size: 1.2vw;
+    padding: 1vw;
+    opacity: 0.9;
+    font-family:'Times New Roman', Times, serif;
+    z-index: 1;
+    position: relative;
+}
+.text:hover {
+    text-shadow: 2px 2px 0px #c0b5b5, 5px 4px 0px rgba(0,0,0,0.15);
+}
+.new-img1{
+    background-image: url("https://scontent.fhfa1-1.fna.fbcdn.net/v/t39.30808-6/315317135_10160445199188216_3244872666416479399_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Qov02WcEf04AX8bPG4E&tn=3NvTutf0W_WLBcwI&_nc_ht=scontent.fhfa1-1.fna&oh=00_AfDcxjht6-eN-fcbI7W56jPduG82_T20Sju8w55_-mrwZA&oe=6396C8B7");
+    width: 50vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:768px){
+    .newar{
+        height: 150%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .new-img1{
+        width: 100vw;
+        height: 50vw;
+    }
+}
+/* BLOCK 4 */
+.women{
+    background-color: rgb(161, 110, 110);
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw ;
+    animation: ppp 10s ease-in;
+}
+@keyframes ppp {
+    from{
+        background-color: rgb(161, 110, 110);
+    }
+    to{
+        background-color: rgba(161, 110, 110, 0.378);
+    }
+}
+.text2{
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    color: #270e0e;
+    padding: 3vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.text2 h1{
+    font-size: 3vw;
+    padding-bottom: none;
+
+}
+.text2 button{
+    font-size: 1.2vw;
+    padding: 1vw;
+    opacity: 0.9;
+    font-family:'Times New Roman', Times, serif;
+    z-index: 1;
+    position: relative;
+}
+
+.women-img1{
+    background-image: url("https://scontent.fhfa1-1.fna.fbcdn.net/v/t1.6435-9/175149198_10159361777073216_3765895208739745849_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9267fe&_nc_ohc=ZV__cMKGEuIAX8F1RV9&tn=3NvTutf0W_WLBcwI&_nc_ht=scontent.fhfa1-1.fna&oh=00_AfBigGc_v3m-qgYrIu2K5Yasb2fy8vITO-AV1a1lQyjIMQ&oe=63BCE2DC");
+    width: 25vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover; 
+}
+.women-img2{
+    background-image: url("https://scontent.fhfa1-1.fna.fbcdn.net/v/t39.30808-6/276315431_10160018079188216_9219675669440908713_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a26aad&_nc_ohc=mnQEVQpN18AAX8SegLa&_nc_ht=scontent.fhfa1-1.fna&oh=00_AfAcgJCGWJJyv15z7A3YNLuINp8XMkBFDkQT-nS5Y1d5UA&oe=639A84A6");
+    width: 25vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover; 
+}
+
+@media screen and (max-width:768px){
+    .women{
+        height: 150%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .women-img1{
+        display: none;
+    }
+    .women-img2{
+        width: 100vw;
+        height: 100vw;
+    }
+}
+/* BLOCK 5 */
+.men{
+    background-color: rgb(113, 76, 76);
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vw;
+    animation: qqq 10s ease-in;
+}
+@keyframes qqq {
+    from{
+        background-color: rgb(113, 76, 76);
+    }
+    to{
+        background-color: rgba(113, 76, 76, 0.378);
+    }
+}
+.text3{
+    text-align: center;
+    float: left;
+    color: #270e0e;
+    padding: 3vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text3 h1{
+    font-size: 3vw;
+    padding-bottom: none;
+
+}
+.text3 button{
+    font-size: 1.2vw;
+    padding: 1vw;
+    opacity: 0.9;
+    font-family:'Times New Roman', Times, serif;
+    z-index: 1;
+    position: relative;
+}
+
+.men-img1{
+    background-image: url("men-img1.jpg");
+    width: 40vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover; 
+}
+@media screen and (max-width:768px){
+    .men{
+        height: 150%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .men-img1{
+        width: 100vw;
+        height: 100vw;
+    }
+}
+/* BLOCK 6 */
+.kids{
+    background-color: rgb(40, 23, 23);
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 1vw;
+}
+.text4{
+    text-align: center;
+    text-decoration: none;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    float: left;
+    padding-left: 10vw;
+}
+.text4 h1{
+    font-size: 3vw;
+    padding-bottom: none;
+}
+.text4 button{
+    font-size: 1.2vw;
+    padding: 1vw;
+    opacity: 0.9;
+    font-family:'Times New Roman', Times, serif;
+    z-index: 1;
+    position: relative;
+}
+
+.kids-img1{
+    background-image: url("https://www.highsnobiety.com/static-assets/thumbor/4jivgaYMErXRfNkOTVjzxUVn8V0=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2019/02/07175914/puma-sesame-street-ss19-release-date-price-06.jpg");
+    width: 50vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover; 
+}
+@media screen and (max-width:768px){
+    .kids{
+        height: 150%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text4{
+        padding: 0;
+        padding-bottom: 2vw;
+    }
+    .kids-img1{
+        width: 100vw;
+        height: 70vw;
+
+    }
+}

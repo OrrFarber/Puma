@@ -1,0 +1,145 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.topnav{
+    background-color: rgb(50, 47, 47);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+    }
+.topnav a{ 
+float: left;
+color: #f2f2f2;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 2vw;
+}
+.topnav a:hover {    
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active{
+    background-color: #514948;
+    color: white;
+    margin-left: 1vw;
+}
+/* search button */
+#chrome-search{
+    font-size: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ddd;
+    top: 0;
+    left: 0;
+    border: 0;
+    height: 4vw;
+    border-radius: 2vw/50%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0.5vw;
+}
+/* logo */
+.logo1{
+    padding-right: 1vw;
+}
+.logo1 img{
+    width: 5.5vw;
+    height: 4vw;
+}
+/* BLOCK 1 */
+#item-photos{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.items{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    margin: 1vw;
+    margin-top: 0;
+    padding-top: 2vw;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+#new-item1{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/389575/01/sv01/fnd/PNA/fmt/png/PUMA-x-LAUREN-LONDON-Slipstream-Lo-Women's-Sneakers");
+    width: 38vw;
+    height: 38vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#photo-opt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img1{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/389575/01/fnd/PNA/fmt/png/PUMA-x-LAUREN-LONDON-Slipstream-Lo-Women's-Sneakers");
+    width: 10vw;
+    height: 10vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#img2{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/389575/01/bv/fnd/PNA/fmt/png/PUMA-x-LAUREN-LONDON-Slipstream-Lo-Women's-Sneakers");
+    width: 10vw;
+    height: 10vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#img3{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/389575/01/sv02/fnd/PNA/fmt/png/PUMA-x-LAUREN-LONDON-Slipstream-Lo-Women's-Sneakers");
+    width: 10vw;
+    height: 10vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#size button{
+    width: 8vw;
+    font-size: 2vw;
+    padding: 2vw;
+    margin: 1vw;
+}
+@media screen and (max-width:768px){
+    #item-photos{
+        flex-direction: column;
+        align-items: center;
+    }
+    #photo-opt{
+        justify-content: space-between;
+        padding-top: 3vw;
+        padding-bottom: 5vw;
+    }
+    .item{
+        width: 60vw;
+    }
+    #new-item1{
+        width: 50vw;
+        height: 50vw;
+    }
+}
+

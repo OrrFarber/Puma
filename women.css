@@ -1,0 +1,156 @@
+/* topnav bar */
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.topnav{
+    background-color: rgb(50, 47, 47);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+    }
+    /* link style */
+.topnav a{ 
+float: left;
+color: #f2f2f2;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 2vw;
+}
+/* color of links on hover */
+.topnav a:hover {    
+    background-color: #ddd;
+    color: black;
+}
+/* color to active link */
+.topnav a.active{
+    background-color: #514948;
+    color: white;
+    margin-left: 1vw;
+}
+/* search button */
+#chrome-search{
+    font-size: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ddd;
+    top: 0;
+    left: 0;
+    border: 0;
+    height: 4vw;
+    border-radius: 2vw/50%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0.5vw;
+}
+/* logo */
+.logo1{
+    padding-right: 1vw;
+}
+.logo1 img{
+    width: 5.5vw;
+    height: 4vw;
+}
+
+/* BLOCK 2 */
+.women{
+    background-color: rgb(158, 136, 136);
+    height: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-img1{
+    background-image: url("https://i0.wp.com/www.nylon.com.sg/wp-content/uploads/2021/06/puma-gloaming-capsule-banner-scaled.jpg?resize=2048%2C792&ssl=1");
+    width: 100vw;
+    height: 35vw;
+    background-position: center;
+    background-size: cover;
+}
+
+/* BLOCK 3  */
+.products h2{
+    padding-left: 4vw;
+    background-color: rgb(244, 244, 244);
+    margin: 1vw;
+    margin-bottom: 0;
+}
+.items{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244, 244, 244);
+    margin: 1vw;
+    margin-top: 0;
+    padding-top: 2vw;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+#new-item1{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/384363/01/sv01/fnd/PNA/fmt/png/Mayze-Stack-Women's-Sneakers");
+    width: 25vw;
+    height: 25vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+#new-item2{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/381410/01/sv01/fnd/PNA/fmt/png/Suede-Classic-XXI-Women's-Sneakers");
+    width: 25vw;
+    height: 25vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#new-item3{
+    background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/388058/01/sv01/fnd/PNA/fmt/png/PUMA-x-LAUREN-LONDON-Suede-Women's-Sneakers");
+    width: 25vw;
+    height: 25vw;
+    background-position: center;
+    background-size: cover;
+    border: rgb(158, 136, 136) 0.1vw solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .products h2{
+        text-align: center;
+        margin-left: 0 ;
+    }
+    .items{
+        flex-direction: column;
+        padding-left: 20%;
+    }
+    .item{
+        width: 40vw;
+    }
+    #new-item1{
+        width: 50vw;
+        height: 50vw;
+        }
+    #new-item2{
+        width: 50vw;
+        height: 50vw;
+        }
+        #new-item3{
+            width: 50vw;
+            height: 50vw;
+            }
+}
+
