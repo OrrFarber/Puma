@@ -110,7 +110,7 @@ color: #f2f2f2;
     text-shadow: 2px 2px 0px #c0b5b5, 5px 4px 0px rgba(0,0,0,0.15);
 }
 .new-img1{
-    background-image: url("https://scontent.fhfa1-1.fna.fbcdn.net/v/t39.30808-6/315317135_10160445199188216_3244872666416479399_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Qov02WcEf04AX8bPG4E&tn=3NvTutf0W_WLBcwI&_nc_ht=scontent.fhfa1-1.fna&oh=00_AfDcxjht6-eN-fcbI7W56jPduG82_T20Sju8w55_-mrwZA&oe=6396C8B7");
+    background-image: url("https://scontent.fhfa1-1.fna.fbcdn.net/v/t39.30808-6/315317135_10160445199188216_3244872666416479399_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ZUhl37JwIl8AX_l3ykP&tn=3NvTutf0W_WLBcwI&_nc_ht=scontent.fhfa1-1.fna&oh=00_AfBY6_mJuIZjRePmPPK7zMrJ890eEstckVot0Lgs0gsAWQ&oe=639CB777");
     width: 50vw;
     height: 30vw;
     background-position: center;
@@ -317,3 +317,42 @@ color: #f2f2f2;
 
     }
 }
+/* CONTACT US */
+
+
+.contact{
+    background-color: rgb(161, 110, 110);
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    margin-top: 1vw;
+
+}
+.contact h2{
+    font-size: 2vw;
+}
+#fb-img{
+    width: 3vw;
+    height:3vw;
+    background-position: left;
+    padding-left: 2vw;
+   
+}
+#insta-img{
+    width: 3vw;
+    height:3vw;
+    background-position: left;
+    padding-left: 2vw;
+}
+#web-img{
+    width: 3vw;
+    height:3vw;
+    background-position: left;
+    padding-left: 2vw;
+}
+
+
+
+
+
